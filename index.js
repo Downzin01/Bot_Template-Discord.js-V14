@@ -67,3 +67,19 @@ process.on('unhandledRejection', async (err, promise) => {
     console.error(`[ANTI-CRASH] Unhandled Rejection/Rejeição não tratada: ${err}`.red);
     console.error(promise);
 });
+
+process.on('uncaughtException', async (err, promise) => {
+    console.error(`[ANTI-CRASH] uncaughtException/Exceção não capturada: ${err}`.red);
+    console.error(promise);
+});
+
+process.on('uncaughtExceptionMonitor', async (err, promise) => {
+    console.error(`[ANTI-CRASH] uncaughtExceptionMonitor/monitor de exceção não detectado: ${err}`.red);
+    console.error(promise);
+});
+
+process.on('multipleResolves', async (err, promise) => {
+    console.error(`[ANTI-CRASH] multipleResolves/várias resoluções: ${err}`.red);
+    console.error(promise);
+});
+
