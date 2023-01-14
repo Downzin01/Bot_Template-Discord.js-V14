@@ -6,7 +6,7 @@
     <a href="https://github.com/Downzin01/Bot_Template-Discord.js-V14#clique-na-bandeira-para-alterar-o-idioma-do-readme">
       <img src="https://cdn-icons-png.flaticon.com/512/206/206597.png" alt="" style="width: 10%;">
     </a>
-    <a href="https://github.com/Downzin01/Bot_Template-Discord.js-V14/blob/main/README.md#click-the-flag-to-change-the-readme-language">
+    <a href="https://github.com/Downzin01/Bot_Template-Discord.js-V14#click-the-flag-to-change-the-readme-language">
       <img src="https://cdn-icons-png.flaticon.com/512/206/206626.png" alt="" style="width: 10%">
     </a>
 </div>
@@ -153,7 +153,7 @@ node .
     <a href="https://github.com/Downzin01/Bot_Template-Discord.js-V14#clique-na-bandeira-para-alterar-o-idioma-do-readme">
       <img src="https://cdn-icons-png.flaticon.com/512/206/206597.png" alt="" style="width: 10%;">
     </a>
-    <a href="https://github.com/Downzin01/Bot_Template-Discord.js-V14/blob/main/README.md#click-the-flag-to-change-the-readme-language">
+    <a href="https://github.com/Downzin01/Bot_Template-Discord.js-V14#click-the-flag-to-change-the-readme-language">
       <img src="https://cdn-icons-png.flaticon.com/512/206/206626.png" alt="" style="width: 10%">
     </a>
 </div>
