@@ -1,10 +1,11 @@
 const mongoose = require('mongoose');
 const config = require("../config/config.js");
 const colors = require("colors");
+require('dotenv').config();
 
 module.exports = (client) => {
 	console.log("\n" + "[DATABASE🍃] Começou a se conectar ao MongoDB...".brightYellow);
-	const mongo = process.env.MONGO || config.Handlers.MongoDB;
+	const mongo = process.env.MONGODB || config.Handlers.MongoDB;
 	
 	if (!mongo) {
 		console.log("[AVISO😨] Mongo URI/URL não foi fornecido! (Não obrigatório)".red);

@@ -1,6 +1,7 @@
 const { Client, Partials, Collection, GatewayIntentBits } = require('discord.js');
 const config = require('./config/config');
 const colors = require("colors");
+require('dotenv').config();
 
 // Criando o client:
 const client = new Client({
