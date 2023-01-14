@@ -1,12 +1,12 @@
 # <div align="center">🤖・Bot Template Discord.js V14</div>
 
-<div align="center" id='#br'>
+<div align="center">
     <h3>Clique na bandeira para alterar o idioma do README</h3>
     <p>Click the flag to change the README language</p>
-    <a href="#br">
+    <a href="https://github.com/Downzin01/Bot_Template-Discord.js-V14#clique-na-bandeira-para-alterar-o-idioma-do-readme">
       <img src="https://cdn-icons-png.flaticon.com/512/206/206597.png" alt="" style="width: 10%;">
     </a>
-    <a href="#en">
+    <a href="https://github.com/Downzin01/Bot_Template-Discord.js-V14/blob/main/README.md#click-the-flag-to-change-the-readme-language">
       <img src="https://cdn-icons-png.flaticon.com/512/206/206626.png" alt="" style="width: 10%">
     </a>
 </div>
@@ -147,13 +147,13 @@ node .
 
 <br>
 
-<div align="center" id='#en'>
+<div align="center">
     <h3>Click the flag to change the README language</h3>
     <p>Clique na bandeira para alterar o idioma do README</p>
-    <a href="#br">
+    <a href="https://github.com/Downzin01/Bot_Template-Discord.js-V14#clique-na-bandeira-para-alterar-o-idioma-do-readme">
       <img src="https://cdn-icons-png.flaticon.com/512/206/206597.png" alt="" style="width: 10%;">
     </a>
-    <a href="#en">
+    <a href="https://github.com/Downzin01/Bot_Template-Discord.js-V14/blob/main/README.md#click-the-flag-to-change-the-readme-language">
       <img src="https://cdn-icons-png.flaticon.com/512/206/206626.png" alt="" style="width: 10%">
     </a>
 </div>
