@@ -4,9 +4,9 @@
     <h3>Clique na bandeira para alterar o idioma do README</h3>
     <p>Click the flag to change the README language</p>
     <a href="#br">
-      <img src="#en" alt="" style="width: 10%;">
+      <img src="https://cdn-icons-png.flaticon.com/512/206/206597.png" alt="" style="width: 10%;">
     </a>
-    <a href="https://www.youtube.com/results?search_query=Your+main+branch+isn%27t+protected">
+    <a href="#en">
       <img src="https://cdn-icons-png.flaticon.com/512/206/206626.png" alt="" style="width: 10%">
     </a>
 </div>
