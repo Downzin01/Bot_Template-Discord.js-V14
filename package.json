@@ -1,0 +1,25 @@
+{
+  "name": "template-bot-discord.js-v14",
+  "version": "1.0.0",
+  "description": "Template Bot Discord.js V14",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "Discord Bot",
+    "Discord.js",
+    "Discord.js V14",
+    "Bot template",
+    "template"
+  ],
+  "author": "Downzin",
+  "license": "ISC",
+  "dependencies": {
+    "better-sqlite3": "^8.0.1",
+    "colors": "^1.4.0",
+    "discord.js": "^14.7.1",
+    "mongoose": "^6.8.3",
+    "quick.db": "^9.0.8"
+  }
+}
