@@ -1,10 +1,7 @@
 const { PermissionsBitField, Routes, REST, User } = require('discord.js');
 const fs = require("fs");
-const config = require("../config/config");
-const colors = require("colors");
-require('dotenv').config();
 
-module.exports = (client) => {
+module.exports = (client, config) => {
     console.log("\n" + "[APPLICATION] Application commands Handler:".blue);
 
     let commands = [];
@@ -64,19 +61,19 @@ module.exports = (client) => {
     });
 
     // Registrando todos os comandos do aplicativo:
-    if (!config.Client.ID || process.env.ID) {
+    if (!config.Client.ID) {
         console.log("[CRASH] Você precisa fornecer seu ID de bot em config.js!".red + "\n");
         return process.exit();
     };
 
-    const rest = new REST({ version: '10' }).setToken(config.Client.Token || process.env.TOKEN);
+    const rest = new REST({ version: '10' }).setToken(config.Client.Token);
 
     (async () => {
         console.log("\n" + '[HANDLER📀] Começou a registrar todos os comandos do aplicativo.'.yellow);
 
         try {
             await rest.put(
-                Routes.applicationCommands(config.Client.ID || process.env.ID),
+                Routes.applicationCommands(config.Client.ID),
                 { body: commands }
             );
 

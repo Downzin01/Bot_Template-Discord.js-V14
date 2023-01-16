@@ -33,7 +33,7 @@ const client = new Client({
 // require('http').createServer((req, res) => res.end('Ready.')).listen(3000);
 
     // Obtendo o token do bot:
-    const AuthenticationToken = process.env.TOKEN || config.Client.Token;
+    const AuthenticationToken = config.Client.Token;
     if (!AuthenticationToken) {
         console.warn("[CRASH] Token de autenticação para bot do Discord é necessário! adicione em config.js.".red)
         return process.exit();
@@ -67,19 +67,3 @@ process.on('unhandledRejection', async (err, promise) => {
     console.error(`[ANTI-CRASH] Unhandled Rejection/Rejeição não tratada: ${err}`.red);
     console.error(promise);
 });
-
-process.on('uncaughtException', async (err, promise) => {
-    console.error(`[ANTI-CRASH] uncaughtException/Exceção não capturada: ${err}`.red);
-    console.error(promise);
-});
-
-process.on('uncaughtExceptionMonitor', async (err, promise) => {
-    console.error(`[ANTI-CRASH] uncaughtExceptionMonitor/monitor de exceção não detectado: ${err}`.red);
-    console.error(promise);
-});
-
-process.on('multipleResolves', async (err, promise) => {
-    console.error(`[ANTI-CRASH] multipleResolves/várias resoluções: ${err}`.red);
-    console.error(promise);
-});
-
