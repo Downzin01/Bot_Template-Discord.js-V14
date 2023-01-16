@@ -37,6 +37,18 @@
 
 <br>
 
+### ╔ 🧩・Recursos do projeto:
+• Comandos prefixo;<br>
+• Comandos Slash;<br>
+• Comandos App/User;<br>
+• Suporte Database sqlite;<br>
+• Suporte MongoDB.
+<br/>
+
+---
+
+<br>
+
 ### ╔ 🧩・Criando o bot e adicionando no servidor:
 - `1.` Entre no [Discord Developer Portal](https://discord.com/developers/applications) e clique na opção `Applications`;<br>
 - `2.` No lado superior direito clique no botão `New Application` e nomeie seu bot;<br>
@@ -178,6 +190,18 @@ node .
         </tr>
     </table>
 </div>
+<br/>
+
+---
+
+<br>
+
+### ╔ 🧩・Project features:
+• Prefix commands;<br>
+• Slash Commands;<br>
+• Application/User Commands;<br>
+• Database sqlite support;<br>
+• MongoDB support.
 <br/>
 
 ---
